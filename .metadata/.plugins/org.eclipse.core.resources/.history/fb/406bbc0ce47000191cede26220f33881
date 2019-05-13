@@ -1,0 +1,27 @@
+package Logger;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class Log4j1 {
+	Logger logger;
+	WebDriver driver;
+	@Test
+	public void demoTest() {
+	//create Logger class
+	logger= Logger.getLogger("Log4j1");
+	PropertyConfigurator.configure("log4j.properties");
+	
+	System.setProperty("webdriver.chrome.driver", "D:\\SelResource\\chromedriver.exe");
+	logger.info("Browser executable file running");
+	driver=new ChromeDriver();
+	logger.info("Browser launched");
+	driver.get("https://opensource-demo.orangehrmlive.com/");
+	logger.info("Application opened");
+	driver.manage().window().maximize();
+	}
+
+}
