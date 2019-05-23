@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testng1" duration-ms="32" started-at="2019-05-16T01:40:20Z" finished-at="2019-05-16T01:40:20Z">
+    <groups>
+    </groups>
+    <test name="prog1" duration-ms="32" started-at="2019-05-16T01:40:20Z" finished-at="2019-05-16T01:40:20Z">
+      <class name="com.testngset.testngprog1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="setup" is-config="true" duration-ms="7" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforc()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="beforc" is-config="true" duration-ms="0" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforc -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="before" is-config="true" duration-ms="1" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="aaunch1()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="aaunch1" duration-ms="4" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaunch1 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="before" is-config="true" duration-ms="0" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="main()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="main" is-config="true" duration-ms="0" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="baunch()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="baunch" duration-ms="2" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baunch -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="before" is-config="true" duration-ms="0" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="claunch()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="claunch" duration-ms="1" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- claunch -->
+        <test-method status="PASS" signature="main()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="main" is-config="true" duration-ms="0" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="main" is-config="true" duration-ms="1" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="dlaunch()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="dlaunch" duration-ms="0" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dlaunch -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="before" is-config="true" duration-ms="0" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="main()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="main" is-config="true" duration-ms="0" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterc()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="afterc" is-config="true" duration-ms="0" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterc -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngset.testngprog1@148080bb]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-16T07:10:20Z" finished-at="2019-05-16T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testngset.testngprog1 -->
+    </test> <!-- prog1 -->
+  </suite> <!-- testng1 -->
+</testng-results>

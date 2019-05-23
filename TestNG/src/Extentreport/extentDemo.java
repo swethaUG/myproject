@@ -31,10 +31,10 @@ public class extentDemo {
 		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/myReport.html");
 		// Title of the report
 		htmlReporter.config().setDocumentTitle("Automation Report");
-		//Name of the report
+		// Name of the report
 		htmlReporter.config().setReportName("Functional Report");
-		//To Specify Theme like STANDARD/DARK
-		htmlReporter.config().setTheme(Theme.STANDARD); 
+		// To Specify Theme like STANDARD/DARK
+		htmlReporter.config().setTheme(Theme.DARK); 
 		
 		extent=new ExtentReports();
 		extent.attachReporter(htmlReporter);
@@ -62,8 +62,8 @@ public class extentDemo {
 		Assert.assertEquals("OrangeHRM", pgTitle);
 		
 		File f=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(f,new File("D:\\titleScreenshot.png"));
-		test.addScreenCaptureFromPath("D:\\titleScreenshot.png");// adding screen shot
+		FileUtils.copyFile(f,new File("C:/Users/admin/Desktop/automate/TestNG/test-output/screenshot.png"));
+		test.addScreenCaptureFromPath("C:/Users/admin/Desktop/automate/TestNG/test-output/screenshot.png");// adding screen shot
 	}
 	
 	@AfterClass

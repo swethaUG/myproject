@@ -1,0 +1,7 @@
+<suite name="projectOHRM" test="parallel">
+<test name="Logintest">
+<classes>
+<class name="com.testscripts.TC_1"/>
+</classes>
+</test>
+</suite>

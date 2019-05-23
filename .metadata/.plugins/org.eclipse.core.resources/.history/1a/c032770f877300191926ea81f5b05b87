@@ -1,8 +1,0 @@
-#name locator for username element
-username=txtUserName
-#name locator for password element
-password=txtPassword
-#name locator for submit element
-submit=Submit
-#name locator for clear element
-clear=clear

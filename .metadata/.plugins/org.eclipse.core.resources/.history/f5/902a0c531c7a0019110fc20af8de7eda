@@ -1,0 +1,19 @@
+package com.OHRM.lib;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class General {
+	
+    public void setUp()
+    {
+	System.setProperty("webdriver.chrome.driver","C:/Users/admin/Desktop/New folder (3)/chromedriver.exe");
+	WebDriver driver= new ChromeDriver();
+	String url="http://localhost/orangehrm/orangehrm-2.6/orangehrm-2.6/login.php";
+	driver.get(url);
+	driver.manage().window().maximize();
+	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    }
+}

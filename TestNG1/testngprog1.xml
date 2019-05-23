@@ -1,0 +1,10 @@
+<suite name="testng1">
+- <test name="prog1">
+- <classes>
+  <class name="com.testngset.testngprog1" /> 
+  <methods>
+  <exculde name="aaunch1"/>
+  </methods>
+  </classes>
+  </test>
+  </suite>
